@@ -169,9 +169,24 @@
   dependencies:
     tslib "^1.9.0"
 
+"@angular/pwa@^0.6.3":
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/@angular/pwa/-/pwa-0.6.3.tgz#d76ad3eaace3215421592e5675f27e8c3ac33288"
+  dependencies:
+    "@angular-devkit/core" "0.6.3"
+    "@angular-devkit/schematics" "0.6.3"
+    "@schematics/angular" "0.6.3"
+    typescript "~2.6.2"
+
 "@angular/router@^6.0.2":
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/@angular/router/-/router-6.0.2.tgz#a7c925751accede6c5b4a8369170a53f3a48b940"
+  dependencies:
+    tslib "^1.9.0"
+
+"@angular/service-worker@^6.0.2":
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/@angular/service-worker/-/service-worker-6.0.2.tgz#be4e1d7bdd337978f39af4cf76c7811395eedd47"
   dependencies:
     tslib "^1.9.0"
 
@@ -5881,6 +5896,10 @@ typedarray@^0.0.6:
   version "2.7.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.7.2.tgz#2d615a1ef4aee4f574425cdff7026edf81919836"
 
+typescript@~2.6.2:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.6.2.tgz#3c5b6fd7f6de0914269027f03c0946758f7673a4"
+
 uglify-es@^3.3.4:
   version "3.3.10"
   resolved "https://registry.yarnpkg.com/uglify-es/-/uglify-es-3.3.10.tgz#8b0b7992cebe20edc26de1bf325cef797b8f3fa5"
@@ -6304,16 +6323,9 @@ wrappy@1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
 
-ws@1.1.2:
+ws@1.1.2, ws@^1.0.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/ws/-/ws-1.1.2.tgz#8a244fa052401e08c9886cf44a85189e1fd4067f"
-  dependencies:
-    options ">=0.0.5"
-    ultron "1.0.x"
-
-ws@^1.0.1:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-1.1.5.tgz#cbd9e6e75e09fc5d2c90015f21f0c40875e0dd51"
   dependencies:
     options ">=0.0.5"
     ultron "1.0.x"
